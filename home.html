@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>SuitMedia!</title>
+  </head>
+  <body>
+
+    <!-- Navbar  -->
+    <nav>
+      <h2>Company</h2>
+      
+      <ul>
+        <li><a href="">ABOUT</a> </li>
+        <li><a href="">OUR WORK</a></li>
+        <li><a href="">OUR TEAM</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- Navbar  -->
+
+    <!-- Corousel  -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="assets/img/about-bg.jpg" style="width:100%">
+        <div class="text">THIS IS A PLACE WHERE TECHNOLOGY & CREATIVITY FUSED INTO DIGITAL CHEMISTRY</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/img/bg.jpg" style="width:100%">
+        <div class="text">WE DON'T HAVE THE BEST BUT WE HAVE THE GREATEST TEAM</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- <br> -->
+
+    <!-- The dots/circles -->
+    <div style="text-align:center" class="dotPrimary">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <!-- END Corousel  -->
+
+    <!-- OURVALUS  -->
+    <h1 style="text-align:center; margin-top: 5%;" class="ourvalues">OUR VALUES</h1>
+    <div class="row">
+      <div class="column">
+        <div class="card In">
+          <img src="assets/img/lightbulb-o.png" class="img-icon in" alt="" srcset="">
+          <h3>INNOVATIVE</h3>
+          <p class="p-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi molestias cupiditate sapiente. Ab nostrum iusto itaque vitae, repellendus consequatur nam.</p>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card Ly">
+          <img src="assets/img/bank.png" class="img-icon" alt="" srcset="">
+          <h3>LOYALTY</h3>
+          <p class="p-card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quam labore, praesentium consectetur vel culpa ipsam voluptates aliquam explicabo ipsa!</p>
+          <p>Some text</p>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card Re">
+          <img src="assets/img/balance-scale.png" class="img-icon" alt="" srcset="">
+          <h3>RESPECT</h3>
+          <p class="p-card">Lorem ipsum dolor sit amet consectetur adipisicing  adipisicing elit. Voluptatum error nostrum aut corrupti ut possimus eligendi aliquam a impedit asperiores consectetur.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- contanct  -->
+    <h1 style="text-align:center; margin-top: 5%;" class="ourvalues">CONTACT US</h1>
+    <div class="form-control">
+      <form action="#" onsubmit="return validate()" name="f1">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <p id="nameloc" style="margin-bottom: 20px; color: #ed0404;" ></p>
+    
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" > 
+        <p id="emailloc" style="margin-bottom: 20px; color: #ed0404;" ></p>
+    
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="" cols="30" rows="10"></textarea>
+        <p id="alamatloc" style="margin-bottom: 20px; color: #ed0404;" ></p>
+      
+        <input type="submit" value="Submit" onclick="validate()">
+      </form>
+    </div>
+
+
+
+    <!-- Footer  -->
+    <div class="footer">
+      <p class="">CopyRight @2016. PT Company</p>
+      <img src="assets/img/facebook-official.png" alt="" width="28px" style="margin-top: 8px;" srcset="">
+      <img src="assets/img/twitter.png" alt="" width="28px" style="margin-top: 8px;" srcset="">
+    </div>
+
+
+
+  </body>
+  <script src="assets/js/home.js"></script>
+</html>
